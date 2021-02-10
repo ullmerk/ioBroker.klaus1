@@ -19,7 +19,7 @@ Test Adapter
 ## Developer manual
 This section is intended for the developer. It can be deleted later
 
-### Getting started
+### Getting started1
 
 You are almost done, only a few steps left:
 1. Create a new repository on GitHub with the name `ioBroker.klaus1`
