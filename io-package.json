@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "klaus1",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Klaus1",
+		"titleLang": {
+			"en": "Klaus1",
+			"de": "Klaus1",
+			"ru": "Klaus1",
+			"pt": "Klaus1",
+			"nl": "Klaus1",
+			"fr": "Klaus1",
+			"it": "Klaus1",
+			"es": "Klaus1",
+			"pl": "Klaus1",
+			"zh-cn": "Klaus1"
+		},
+		"desc": {
+			"en": "Test Adapter",
+			"de": "Test Adapter",
+			"ru": "Test Adapter",
+			"pt": "Test Adapter",
+			"nl": "Test Adapter",
+			"fr": "Test Adapter",
+			"it": "Test Adapter",
+			"es": "Test Adapter",
+			"pl": "Test Adapter",
+			"zh-cn": "Test Adapter"
+		},
+		"authors": [
+			"ullmerk <klaus.ullmer@gmx.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "klaus1.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/ullmerk/ioBroker.klaus1/master/admin/klaus1.png",
+		"readme": "https://github.com/ullmerk/ioBroker.klaus1/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "climate-control",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
